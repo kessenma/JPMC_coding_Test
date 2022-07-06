@@ -12,7 +12,7 @@
 		567176EA287158D500BFD6D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567176E9287158D500BFD6D8 /* Preview Assets.xcassets */; };
 		567176F32871597C00BFD6D8 /* SchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567176F22871597C00BFD6D8 /* SchoolView.swift */; };
 		567176F5287159AF00BFD6D8 /* DataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567176F4287159AF00BFD6D8 /* DataFactory.swift */; };
-		567176F7287159BD00BFD6D8 /* schools.csv in Resources */ = {isa = PBXBuildFile; fileRef = 567176F6287159BD00BFD6D8 /* schools.csv */; };
+		56D80DF228762CE40042843F /* schools.csv in Resources */ = {isa = PBXBuildFile; fileRef = 56D80DF128762CE40042843F /* schools.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,8 @@
 		567176E9287158D500BFD6D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		567176F22871597C00BFD6D8 /* SchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolView.swift; sourceTree = "<group>"; };
 		567176F4287159AF00BFD6D8 /* DataFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFactory.swift; sourceTree = "<group>"; };
-		567176F6287159BD00BFD6D8 /* schools.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schools.csv; sourceTree = "<group>"; };
+		56D80DE9287624230042843F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56D80DF128762CE40042843F /* schools.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = schools.csv; path = ../schools.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +43,8 @@
 				567176E2287158D300BFD6D8 /* NYCSchoolsApp.swift */,
 				567176F22871597C00BFD6D8 /* SchoolView.swift */,
 				567176F4287159AF00BFD6D8 /* DataFactory.swift */,
-				567176F6287159BD00BFD6D8 /* schools.csv */,
+				56D80DF128762CE40042843F /* schools.csv */,
+				56D80DE9287624230042843F /* Info.plist */,
 				567176E1287158D300BFD6D8 /* NYCSchools */,
 				567176E0287158D300BFD6D8 /* Products */,
 			);
@@ -131,7 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				567176F7287159BD00BFD6D8 /* schools.csv in Resources */,
+				56D80DF228762CE40042843F /* schools.csv in Resources */,
 				567176EA287158D500BFD6D8 /* Preview Assets.xcassets in Resources */,
 				567176E7287158D500BFD6D8 /* Assets.xcassets in Resources */,
 			);
@@ -291,6 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kessenma.NYCSchools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,6 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kessenma.NYCSchools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

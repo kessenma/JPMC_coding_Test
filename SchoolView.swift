@@ -6,9 +6,8 @@
 //
 
 import SwiftUI
-
 struct SchoolView: View {
-    var schools = loadCSV(from: "schools")
+    var schools = School.loadCSV(from: "schools")
     var body: some View {
         List(schools) { school in
             Text(school.school_name)
