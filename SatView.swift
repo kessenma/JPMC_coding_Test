@@ -1,5 +1,7 @@
 import SwiftUI
 
+//THIS CODE IS STILL A WORK IN PROGRESS!!!!
+
 struct SatView: View {
     var forSchoolID: String
     

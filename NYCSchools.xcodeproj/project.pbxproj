@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		565E72FC287735E4000D328F /* readMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readMe.md; sourceTree = "<group>"; };
 		567176DF287158D300BFD6D8 /* NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCSchools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		567176E2287158D300BFD6D8 /* NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsApp.swift; sourceTree = "<group>"; };
 		567176E6287158D500BFD6D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 				567176E2287158D300BFD6D8 /* NYCSchoolsApp.swift */,
 				567176F22871597C00BFD6D8 /* SchoolView.swift */,
 				56D80DFD287642220042843F /* SatView.swift */,
+				565E72FC287735E4000D328F /* readMe.md */,
 				56D80E01287645D20042843F /* 2012_SAT_Results.csv */,
 				56D80DFB2876413A0042843F /* 2017_DOE_High_School_Directory.csv */,
 				56D80DFF287642430042843F /* MainView.swift */,
