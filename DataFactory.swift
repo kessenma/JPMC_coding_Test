@@ -952,6 +952,27 @@ struct School: Identifiable, CSVLoadable{
     }
 }
 
+struct Sat: Identifiable, CSVLoadable{
+    var DBN: String = ""
+    var SCHOOL_NAME: String = ""
+    var Num_of_SAT_Test_Takers: String = ""
+    var SAT_Critical_Reading_Avg_Score: String = ""
+    var SAT_Math_Avg_Score: String = ""
+    var SAT_Writing_Avg_Score: String = ""
+    var SAT_avg: String = ""
+    var id = UUID()
+    
+    init?(raw: [String]){
+        DBN = raw[0]
+        SCHOOL_NAME = raw[1]
+        Num_of_SAT_Test_Takers = raw[2]
+        SAT_Critical_Reading_Avg_Score = raw[3]
+        SAT_Math_Avg_Score = raw[4]
+        SAT_Writing_Avg_Score = raw[5]
+        SAT_avg = raw[6]
+    }
+}
+
 extension CSVLoadable {
     static func loadCSV(from csvName: String) -> [Self] {
         var csvToStruct = [Self]()
